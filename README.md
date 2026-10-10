@@ -169,10 +169,6 @@ Backend hiện tại nhận `Twist`; nếu đổi simulator, kiểm tra lại ki
 ## Cấu trúc repo
 
 ```text
-docs/
-  report.tex                  Báo cáo LaTeX
-  figures/                    Ảnh báo cáo
-  tf/                         Sơ đồ TF đã ghi lại
 src/hri_turtlebot4_navigation/
   launch/                     Simulation, mapping, localization, navigation
   config/                     Tham số SLAM và Nav2
@@ -181,10 +177,6 @@ src/hri_turtlebot4_navigation/
   rviz/                       Cấu hình RViz
   scripts/                    WASD teleop và kiểm tra hệ thống
 ```
-
-Tên và vị trí ảnh cần chèn được ghi trong [docs/figures/README.md](docs/figures/README.md).
-Bản repo hiện chưa có bộ screenshot của lần nộp bài. Báo cáo còn cần link video
-và xác nhận kết quả ba goal trên RViz từ log/action status.
 
 ## Nguồn sử dụng
 

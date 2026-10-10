@@ -3,6 +3,9 @@
 /install/
 /log/
 
+# Report and screenshots stay local
+/docs/
+
 # Local drafts and editor files
 /.local-backup/
 /.vscode/
@@ -12,7 +15,7 @@
 __pycache__/
 *.py[cod]
 
-# LaTeX output (the TF PDF in docs/tf is a source artifact)
+# LaTeX output
 *.aux
 *.log
 *.toc
