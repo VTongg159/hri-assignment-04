@@ -1,0 +1,31 @@
+# Colcon output
+/build/
+/install/
+/log/
+
+# Local drafts and editor files
+/.local-backup/
+/.vscode/
+/.idea/
+*~
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# LaTeX output (the TF PDF in docs/tf is a source artifact)
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+/docs/report.pdf
+
+# Credentials and recordings
+.env
+.env.*
+*.db3
+*.mcap
